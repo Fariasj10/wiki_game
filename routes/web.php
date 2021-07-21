@@ -25,23 +25,5 @@ Route::get('/personajes', function() {
    
   ];
 
-  $algunCambio = "hola mundo";
+ 
 
-  dd($personajesDeCallOfDuty[2]);
-});
-
-
-Route::get('/personajes-db', function() {
-
-  $cadenasDeTexto = "cualquier vaina";
-  $numerosEnteros = 12;
-  $numerosFlotantes = 1.2;
-  //0
-  $frutas = ['pera', 'manzana', 'durazno', 'kiwi'];
-
-  /*$personajesDeCallOfDuty = DB::select('select * from personajes');
-  dd($personajesDeCallOfDuty);*/
-
-  dd($frutas);
-
-});
