@@ -19,9 +19,10 @@ Route::get('/', function () {
 
 Route::get('/personajes', function() {
   $personajesDeCallOfDuty = [
-    ['name'=>'Elias', 'nick'=> 'Gosth'],
-    ['name'=>'Eddie price', 'nick'=> 'Sgt Eddie'],
-    []
+    ['name'=>'Elias', 'nick'=> 'Ghost'],
+    ['name'=>'Jhon price', 'nick'=> 'Sgt Price'],
+    ['name'=>'Soap McTavish']
+   
   ];
 
   $algunCambio = "hola mundo";
