@@ -22,9 +22,11 @@ Route::get('/personajes', function() {
     ['name'=>'Elias', 'nick'=> 'Ghost'],
     ['name'=>'Jhon price', 'nick'=> 'Sgt Price'],
     ['name'=>'Soap McTavish']
-   
+    ['name']
   ];
 
  
 
 });
+
+
